@@ -1,0 +1,56 @@
+/* 
+    Paleta de cores:
+    Rosa do botão: #F564A9
+    Etc.
+*/
+
+body{
+    background: white;
+}
+
+h1{
+    color: white;
+    cursor: default;
+    padding: 70px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;;
+}
+
+.p1{
+    font-family: "Roboto", sans-serif;
+    color: antiquewhite;
+    font-size: 20px;
+    cursor: default;
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+.p2{
+    color: deeppink ;
+    text-align: right;
+    position: relative;
+    top: -50px;
+    left: -40px;
+    font-size: 15px;
+}
+
+    /* estilos novos */
+
+.botaoPrincipal{
+    color: black;
+    background-color: #7F55B1;
+    border: solid;
+    border-color: #F564A9;
+    text-align: center; /* "none" remove a borda do botão */
+    font-size: 15px;
+    padding: 5px; /* Aumenta o espaço por dentro */
+    border-radius: 5px; /* Arredonda a borda */
+    cursor: pointer; /* Muda a imagem do ponteiro do mouse */
+    position: relative;
+    top: -15px;
+}
+
+.divBackground{
+    background: #7F55B1;
+}
+
