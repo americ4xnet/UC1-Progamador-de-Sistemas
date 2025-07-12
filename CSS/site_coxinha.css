@@ -6,17 +6,19 @@
 
 body{
     background: white;
+    margin: 0%;
+    margin-top: -30px;
 }
 
-h1{
+.cabecalho{
     color: white;
     cursor: default;
-    padding: 70px;
+    padding: 50px;                          /* É melhor criar uma class ao invés de usar o "h1" */
     text-align: center;
-    font-family: "Roboto", sans-serif;;
+    font-family: "Roboto", sans-serif;
 }
 
-.p1{
+.p1{    
     font-family: "Roboto", sans-serif;
     color: antiquewhite;
     font-size: 20px;
@@ -46,11 +48,24 @@ h1{
     padding: 5px; /* Aumenta o espaço por dentro */
     border-radius: 5px; /* Arredonda a borda */
     cursor: pointer; /* Muda a imagem do ponteiro do mouse */
-    position: relative;
-    top: -15px;
+    margin-top: 20px;   /* Aumenta o espaço PARA CIMA do item */
+    margin-right: 100px;
 }
 
 .divBackground{
     background: #7F55B1;
+}
+
+.botaoInvertido{
+    background: transparent;
+    border: 2px groove #F564A9;
+    border-radius: 5px;
+    color: #F564A9;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.container{
+    margin-left: 100px;
 }
 
