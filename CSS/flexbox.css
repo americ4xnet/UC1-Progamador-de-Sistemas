@@ -1,0 +1,26 @@
+.menu{
+    display: flex; /* Alinha os elementos um ao lado do outro */
+
+    /* flex-direction: row-reverse;    Indica a direção do alinhamento 
+                 dos elementos, no caso, em linha-reverso */  
+
+    /* justify-content: end; Mesmo comportamento do row-reverse, porém, 
+                            alinha da mesma forma do display flex, mas invertido*/
+
+    /* justify-content: space-between; Separa os elementos no maior espaço
+                                        possível */
+    justify-content: space-between;  /* Separa os elementos e descola do 
+                                        "limite" */    
+
+    align-items: center;   /* Alinha os itens na vertical, no centro */
+}
+
+.itemsMenu{
+    display: flex;
+    gap: 30px; /* Distância entre os items do flex */  
+}
+
+.configuracaoMenu{
+    display: flex;
+    align-items: center ;
+}

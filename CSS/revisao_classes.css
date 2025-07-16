@@ -8,7 +8,8 @@ body{
     color: #656565;
     text-decoration: none;
     margin-right: 30px;
-    font-size: 13px;  
+    font-size: 13px;
+    align-items: center;  
 }
 
 .linksMenu a:hover{
@@ -44,7 +45,7 @@ body{
 }
 
 .cardProduto{
-    width: 380px;
+    width: 350px     ;
     border: 1px solid #fff2f2;
     box-shadow: 0px 3px 10px #000;
     margin: 50px;
@@ -52,4 +53,58 @@ body{
 
 .cardPadding{
     padding: 20px 40px;
+}
+
+.cardProduto img{
+    width: 100%;  /* Ajusta o tamanho da imagem para o tamanho do "pai" */
+}
+
+.cardPadding button{   /* "Primeira" forma  */
+    width: 100%;
+}
+
+.cardPadding .buttonBuy{    /* Uma outra forma de fazer */
+    width: 100%;
+}
+
+.cardPadding .text{
+    width: 200px;
+    font-size: 27px;
+    font-weight: 700;          /* "Peso" da fonte, deixa em negrito */
+}
+    
+.cardPadding .textP{
+    width: 280px;
+    font-size: 15px;
+}
+
+.flexCards{
+    display: flex;
+}
+
+
+.flexMenu a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.alignMenu .linksMenu{ 
+    align-items: center;
+    display: flex;
+}
+
+.alignMenu .flexMenu{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    color: #656565;
+    text-decoration: none;
+    font-size: 13px;
+    align-items: center;
+}
+
+.alignMenu{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }

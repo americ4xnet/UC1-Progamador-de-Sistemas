@@ -38,18 +38,17 @@ body{
 
     /* estilos novos */
 
-.botaoPrincipal{
-    color: black;
-    background-color: #7F55B1;
+.flexButton{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.styleButton{
+    background: #F564A9;
     border: solid;
-    border-color: #F564A9;
-    text-align: center; /* "none" remove a borda do botão */
-    font-size: 15px;
-    padding: 5px; /* Aumenta o espaço por dentro */
-    border-radius: 5px; /* Arredonda a borda */
-    cursor: pointer; /* Muda a imagem do ponteiro do mouse */
-    margin-top: 20px;   /* Aumenta o espaço PARA CIMA do item */
-    margin-right: 100px;
+    border-radius: 5px;
+    border-width: 3px;
 }
 
 .divBackground{
