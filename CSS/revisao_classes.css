@@ -44,6 +44,12 @@ body{
     font-size: 20px;
 }
 
+.alignButton{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .cardProduto{
     width: 350px     ;
     border: 1px solid #fff2f2;
@@ -80,8 +86,13 @@ body{
 
 .flexCards{
     display: flex;
+    justify-content: center;
 }
 
+.flexMenu a{
+    text-decoration: none;
+    color: #656565;
+}
 
 .flexMenu a:hover{
     text-decoration: underline;
