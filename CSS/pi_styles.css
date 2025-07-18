@@ -1,0 +1,69 @@
+.conteudo{
+    background: black;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    background-color: #F3E5F5;
+    border-radius: 5px;
+}
+
+.logo{
+    background-color: #6A1B9A;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu2 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+}
+
+.abertura{
+    height: 300px;
+    padding: 100px 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.abertura button{
+    margin-left: 150px;
+}
+
+.vantageCard{
+    display: flex;
+}
+
+.vantage{
+    height: 300px;
+}
+
+.plans{
+    display: flex;
+    justify-content: center;
+}
+
+.preco h3{
+    margin-left: 800px;
+}
+
+.rodape{
+    background-color: #6A1B9A;
+    height: 60px;
+}
